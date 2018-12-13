@@ -10,3 +10,6 @@ env:
 
 pip:
 	env/bin/pip install -r requirements.txt
+
+lint:
+	env/bin/flake8 oreno_game
