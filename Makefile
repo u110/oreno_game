@@ -13,3 +13,9 @@ pip:
 
 lint:
 	env/bin/flake8 oreno_game
+
+run:
+	env/bin/python oreno_game/main.py
+
+edit-resource:
+	env/bin/pyxeleditor oreno_game/rsc.pyxel
